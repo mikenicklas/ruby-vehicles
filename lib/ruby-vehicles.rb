@@ -10,11 +10,9 @@ class Vehicles
     
     def where(options)
       results = []
-      
       @@all_vehicles.each do |vehicle|
         results << vehicle if check_match(vehicle, options)
       end
-    
       results
     end
     
