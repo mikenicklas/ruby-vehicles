@@ -1,8 +1,8 @@
 # Ruby Vehicles
-A Ruby library for various manufacturers and models
+A Ruby library for using model year data
 
 ## Usage
-Simple require the ruby-vehicles file into your application and take advantage of the Vehicles class.
+Simply require the ruby-vehicles file into your application and take advantage of the Vehicles class.
 
     Vehicles.all
     # => [{"year"=>"1909", "manufacturer"=>"Ford", "model"=>"Model T"},...]
@@ -19,7 +19,7 @@ Simple require the ruby-vehicles file into your application and take advantage o
     # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Quest"}
     # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Sentra"}
     
-    Vehicles.where(manufactuer: "Maserati")
+    Vehicles.where(manufacturer: "Maserati")
     # => {"year"=>"1984", "manufacturer"=>"Maserati", "model"=>"Quattroporte"}
     # => {"year"=>"1984", "manufacturer"=>"Maserati", "model"=>"Biturbo"}
     # => for all model years manufactured by Maserati
