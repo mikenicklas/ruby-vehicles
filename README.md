@@ -12,12 +12,12 @@ Simply require the ruby-vehicles file into your application and take advantage o
     # => Pass in an option hash which can include year, manufacturer, and model.
     
     Vehicles.where(year: "1999", manufacturer: "Nissan")
-    # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Altima"}
-    # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Frontier"}
-    # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Maxima"}
-    # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Pathfinder"}
-    # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Quest"}
-    # =>{"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Sentra"}
+    # => {"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Altima"}
+    # => {"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Frontier"}
+    # => {"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Maxima"}
+    # => {"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Pathfinder"}
+    # => {"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Quest"}
+    # => {"year"=>"1999", "manufacturer"=>"Nissan", "model"=>"Sentra"}
     
     Vehicles.where(manufacturer: "Maserati")
     # => {"year"=>"1984", "manufacturer"=>"Maserati", "model"=>"Quattroporte"}
